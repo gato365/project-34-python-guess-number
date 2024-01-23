@@ -1,7 +1,9 @@
 import random
 
 
-correctNumber = 73 #random.randint(1, 100)
+correctNumber = random.randint(1,100)
+
+
 
 inputNumber = int(input("Guess a number between 1 and 100: "))
 
@@ -9,11 +11,12 @@ isCorrect = False
 
 while not isCorrect:
     if inputNumber == correctNumber:
-        print("You guessed correctly!")
+        print("You guessed it! You are a hard worker")
         isCorrect = True
     elif inputNumber > correctNumber:
-        print("Your guess is too high!")
+        print("Too High")
         inputNumber = int(input("Guess a number between 1 and 100: "))
-    else:
-        print("Your guess is too low!")
+    elif inputNumber < correctNumber:
+        print("Too Low")
         inputNumber = int(input("Guess a number between 1 and 100: "))
+
