@@ -29,6 +29,22 @@ To run the game:
 3. Run the script with the command `python guessing_game.py` (replace `guessing_game.py` with the actual script filename if different).
 4. The game will start and prompt the user to guess a number.
 
+
+
+Set up the calculator by cloning the repository to your local machine:
+```bash
+git clone https://github.com/gato365/project-34-python-guess-number
+```
+
+## Classroom Usage
+After navigating to the cloned directory, you can run the Python script with your students:
+```bash
+cd project-34-python-guess-number
+python guess_number.py
+```
+
+
+
 ## Customization
 
 Teachers can modify the code to change the range of numbers or the type of feedback provided to make the game more or less challenging depending on the age and skill level of the students.
